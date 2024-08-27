@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+}
+
+p {
+    color: #757575;
+}
+
+.btn-primary {
+    background-color: #FD6E0A;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 18px;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.container {
+    width: 90%;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.header {
+    background-color: #FFF8F3;
+    padding-top: 30px;
+    /* background-image: url("/images/header_bg.png"), url("/images/developer.png");
+    background-position: right bottom, left bottom; */
+    background-image: url("/images/header_bg.png");
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    background-size: auto, contain;
+}
+
+.navigation {
+    /* margin-left: 15px; */
+}
+
+nav {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 140px;
+}
+
+nav h3 {
+    font-size: 38px;
+    font-weight: 800;
+}
+
+nav > ul {
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    list-style: none;
+    margin-right: 40px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #474747
+}
+
+.dev-intro {
+    /* border: 2px solid green; */
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.dev-intro-text h3 {
+    color: #474747;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.dev-intro-text h1 {
+    color: #181818;
+    font-size: 75px;
+    font-weight: 800;
+}
+
+.dev-intro-text p {
+    line-height: 26px;
+}
+
+.buttons {
+    margin-top: 30px;
+}
+
+.dev-intro-text {
+    /* border: 2px solid salmon; */
+    max-width: 480px;
+}
+
+.dev-intro-text * {
+    margin-bottom: 18px;
+}
+
+.btn-contact {
+    color: #FD6E0A;
+    background: #ffffff;
+    border: 1px solid #FD6E0A;
+    font-size: 18px;
+    margin-left: 20px;
+}
+
+.dev-intro-img {
+    display: flex;
+    /* border: 2px solid tomato; */
+    max-width: 500px;
+}
+
+.dev-intro-img img {
+    width: 100%;
+    /* border: 2px solid yellow; */
+}

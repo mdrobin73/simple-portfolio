@@ -277,3 +277,49 @@ nav a {
     font-size: 16px;
     line-height: 28px;
 }
+
+/* footer style starts here */
+.footer {
+    background-color: #FFF8F3
+}
+
+.footer-container {
+    max-width: 1020px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 100px 0px;
+}
+
+.footer-column {
+    max-width: 500px;
+}
+
+.footer-column p {
+    margin: 20px 0px;
+    line-height: 26px;
+}
+
+.social-links {
+
+}
+
+.social-links a {
+    margin-right: 22px;
+}
+
+.contact-form {
+
+}
+
+.contact-form > form input, textarea {
+    display: block;
+    margin-top: 20px;
+    padding: 20px 50px 20px 15px;
+    width: 100%;
+    border: none;
+    color: #757575;
+    border-radius: 3px;
+}

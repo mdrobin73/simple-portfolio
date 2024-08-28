@@ -25,6 +25,10 @@ p {
     color: #757575;
 }
 
+input:focus, textarea:focus {
+    outline: none;
+}
+
 /* Header CSS starts here */
 
 .btn-primary {
@@ -47,10 +51,10 @@ p {
 .header {
     background-color: #FFF8F3;
     padding-top: 30px;
-    /* background-image: url("/images/header_bg.png"), url("/images/developer.png");
-    background-position: right bottom, left bottom; */
-    background-image: url("/images/header_bg.png");
-    background-position: right bottom;
+    background-image: url("/images/header_bg.png"), url("/images/developer.png");
+    background-position: right bottom, left center;
+    /* background-image: url("/images/header_bg.png");
+    background-position: right bottom; */
     background-repeat: no-repeat;
     background-size: auto, contain;
 }

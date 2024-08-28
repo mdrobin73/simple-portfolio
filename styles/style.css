@@ -6,6 +6,13 @@
 
 body {
     font-family: "Open Sans", sans-serif;
+    background-color: #FFFFFF;
+}
+
+h4 {
+    font-size: 18px;
+    font-weight: 700;
+    color: #181818;
 }
 
 p {
@@ -74,7 +81,6 @@ nav a {
 }
 
 .dev-intro {
-    /* border: 2px solid green; */
     display:flex;
     align-items: center;
     justify-content: space-between;
@@ -102,7 +108,6 @@ nav a {
 }
 
 .dev-intro-text {
-    /* border: 2px solid salmon; */
     max-width: 480px;
 }
 
@@ -120,13 +125,11 @@ nav a {
 
 .dev-intro-img {
     display: flex;
-    /* border: 2px solid tomato; */
     max-width: 500px;
 }
 
 .dev-intro-img img {
     width: 100%;
-    /* border: 2px solid yellow; */
 }
 
 /* main css starts here */
@@ -140,7 +143,7 @@ main {
     text-align: center;
     background-color: #FFF8F3;
     border-radius: 3px;
-    box-shadow: 5px 5px 15px gray;
+    box-shadow: 0px 6px 20px 0px rgba(0, 0, 0, 0.2);
 }
 
 .section-title {
@@ -166,17 +169,55 @@ main {
     border: 1px solid pink;
     border-radius: 5px;
     padding: 10px 20px;
-    box-shadow: 5px 5px 15px gray
-}
-
-.info-description {
-    margin-bottom: 10px;
-    text-decoration: underline;
+    /* box-shadow: 5px 5px 15px gray; */
+    box-shadow: 0px 6px 20px 0px rgba(0, 0, 0, 0.2);;
 }
 
 .info-title {
+    margin-bottom: 10px;
+    text-decoration: underline;    
+}
+
+.info-description {
     color: #474747;
     font-size: 18px;
     font-weight: 800;
-
 }
+
+/* what i do section css */
+.what-i-do {
+    margin: 100px auto;
+}
+
+.section-text {
+    text-align: center;
+    padding: 0px 100px;
+}
+
+.skills-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 25px;
+}
+
+.skill {
+    background-color: #FFFFFF;
+    max-width: 240px;
+    padding: 20px 30px;
+    /* box-shadow: 2px 2px 5px gray; */
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    margin-right: 7px;
+}
+
+.skill * {
+    margin-bottom: 15px;
+}
+
+.skill p {
+    line-height: 30px;
+    font-size: 15px;
+}
+
+/* summary of my resume css */
